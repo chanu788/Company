@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Company.Products
 {
-    class PhysicalProduct : IProduct
+    public class PhysicalProduct : IProduct
     {
         public IPayment PaymentProcessor { get; set; }
         public string Status { get; set; }
